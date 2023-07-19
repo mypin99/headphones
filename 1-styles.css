@@ -1,0 +1,155 @@
+body {
+    background-image: url(../headphones/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .header {
+    background-color: none;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header-logo img {
+    width: 150px;
+    z-index: 2;
+    position: relative;
+  }
+  .header-logo a.active,
+  .nav ul li a.active {
+    color: red;
+  }
+  .header-logo a:hover,
+  .nav ul li a:hover {
+    color: red;
+  }
+  .nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin-right: 10px;
+    color: #ffffff;
+  }
+  
+  .nav ul li a {
+    display: inline;
+    margin-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+  }
+  
+  @media(max-width: 480px){
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav ul {
+        flex-direction: column;
+    }
+    .nav ul li {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+  }
+  
+  
+  
+  #hero {
+    padding: 100px;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+  }
+  
+  .hero-content h2 {
+    font-size: 25px;
+    margin-bottom: 80px;
+    color: #ffffff;
+  }
+  
+  .hero-content button {
+    opacity: 0.9;
+    background-color: #ff6565;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  
+  p {
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+  .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  .what-we-do {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .section-what-we-do h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .section-what-we-do p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 40px;
+  }
+  
+  .icons .row {
+    flex-basis: 300px;
+    text-align: center;
+  }
+  
+  .icons h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .icons p {
+    color: #333;
+    font-size: 14px;
+  }
+  
